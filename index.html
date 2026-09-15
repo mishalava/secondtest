@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEB</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header>
+        <div class="head">
+            <img src="img/menu.svg" alt="" onclick="menuClick()">
+            <h3>Brand</h3>
+
+            <div class="poisk" >
+                <img src="img/search.svg" alt="" onclick="searchingScroll()" >
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="poiskMenu">
+        <div class="blockpoisk">
+        <input type="text" placeholder='Ваш запрос' style = 'width: 220px; border: 0px solid;'>
+            <img src="img/search.svg">
+        </div>
+    </div>
+
+    <div class="headmenu">
+        <div class="menulinks">
+        <a href="#">Каталог</a>
+        <a href="#">О бренде</a>
+        <a href="#">Работа компании</a>
+        <a href="#">Сотрудничать с нами</a>
+        </div>
+    </div>
+
+
+    <div class="hero">
+
+    </div>
+    <div class="legend" id ='leg1'> <!-- взято для примера -->
+        <p>То, что остается в памяти надолго</p>
+        <p>Вы пришли сюда именно за эти</p>
+        <div class="pol">
+        <span onclick="changeGender('man')">Мужское</span>
+        <span onclick="changeGender('women')">Женское</span>
+        </div>
+    </div>
+    <div class="info">
+        <div class="block_m">
+        </div>
+        <div class="block_m">
+        </div>
+        <div class="block_m">
+        </div>
+        <div class="block_m">
+        </div>
+
+        <div class="block_w">
+        </div>
+        <div class="block_w">
+        </div>
+        <div class="block_w">
+        </div>
+        <div class="block_w">
+        </div>
+
+    </div>
+    <div class="legend">
+        <p>Новая коллекция</p>
+        <p>Успейте купить сейчас</p>
+    </div>
+    <div class="hotinfo">
+        <div class="blockspace">
+            <div class="block1">
+
+            </div>
+            <div class="block1">
+
+            </div>
+        </div>
+
+        <div class="block2">
+
+        </div>
+
+    </div>
+
+    <div class="legend">
+        <p style="margin-top: 10px">Здесь собрана вся информация,</p>
+        <p>которая могла бы вас заинтересовать</p>
+    </div>
+
+    <div class="about">
+
+        <div class="strelki">
+            <span style="margin-left: 150px; margin-right: 50px;" onclick = 'scroller(-1)'><</span>
+
+        </div>
+
+        <div class="aboutblocks" id="aboutblock">
+
+
+        <div class="aboutblock">
+
+        </div>
+
+        <div class="aboutblock">
+
+        </div>
+
+        <div class="aboutblock">
+
+        </div>
+
+        <div class="aboutblock">
+
+        </div>
+
+        <div class="aboutblock">
+
+        </div>
+
+        </div>
+        <div class="strelki">
+            <span style="margin-right: 150px; margin-left: 50px;" onclick = 'scroller(1)'>></span>
+        </div>
+    </div>
+
+    <hr style="border: 0px solid">
+    <footer>
+        <div class="footerlogo">
+        <h3>Brand</h3>
+        <p>Именно то, что Вы искали</p>
+        </div>
+
+        <div class="footerblock">
+            <h4>Навигация</h4>
+            <a href="">Клик</a>
+            <a href="">Клик</a>
+            <a href="">Клик</a>
+            <a href="">Клик</a>
+        </div>
+
+        <div class="footerRooles">
+            <h4>Информация</h4>
+            <a href="">Клик</a>
+            <a href="">Клик</a>
+            <a href="">Клик</a>
+            <a href="">Клик</a>
+        </div>
+
+    </footer>
+
+
+<script src="main.js"></script>
+</body>
+</html>
