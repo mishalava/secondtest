@@ -48,7 +48,6 @@ function menuClick(){
 
     if (newMenu.style.display === 'flex'){
         newMenu.style.display = 'none'
-
     }
     else{
         newMenu.style.display = 'flex'
@@ -62,15 +61,22 @@ function changeGender(value){
 
     const block_m = document.querySelectorAll('.block_m')
     const block_w = document.querySelectorAll('.block_w')
+    const gender_m = document.getElementById('men')
+    const gender_w = document.getElementById('women')
 
     if (value === 'women'){
         for (const x of block_w) x.style.display = 'flex';
+        gender_m.style.textDecoration = 'none';
+        gender_w.style.textDecoration = 'underline';
         for (const y of block_m) y.style.display = 'none';
     }
     else {
         for (const x of block_w) x.style.display = 'none';
         for (const y of block_m) y.style.display = 'flex';
+        gender_m.style.textDecoration = 'underline';
+        gender_w.style.textDecoration = 'none';
     }
 
 }
+
 
