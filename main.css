@@ -204,6 +204,7 @@ input:focus {
     overflow-x: auto;
     align-items: center;
     gap: 10px;
+    scrollbar-width: none;
     }
 
 .infowrapper{
