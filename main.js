@@ -12,7 +12,7 @@ function searchingScroll(){
         const poisk = document.querySelector('.poisk')
         const text = document.querySelector('.poiskMenu input')
 
-        const textNad = text.value.trim()
+
 
         const poiskMenu = document.querySelector('.poiskMenu')
         const newMenu = document.querySelector('.headmenu')
@@ -20,6 +20,7 @@ function searchingScroll(){
         if (poiskMenu.style.display === 'flex'){
         poiskMenu.style.display = 'none'
         }
+
     else{
         poiskMenu.style.display = 'flex'
         newMenu.style.display = 'none'
